@@ -8,15 +8,19 @@ A game similar to Plants vs. Zombie, . The player can place different plants, ea
 
 In our implementation we have provided the users with 3 plants:
 
-- PeaShooter - Peashooter is the first and the primary attacking plant the game. It is a peashooting plant that shoots peas on seeing a zombie. It costs 100 suns.
-- SunFlower - Sunflower is an essential sun-producing plant which is necessary for producing suns - the currency of the game. It costs 50 suns. Each sun produced from sunflower adds 25 units to your sun counter.
-- Walnut - Walnut is the defensive plant that acts as a shield for the player's plants. It takes a long time for zombies to eat it, providing an effective cover for the plants located behind it. It is mainly used to stall zombies to waste their time, letting other plants attack them.
+- **PeaShooter** - Peashooter is the first and the primary attacking plant the game. It is a peashooting plant that shoots peas on seeing a zombie. It costs 100 suns.
+- **SunFlower** - Sunflower is an essential sun-producing plant which is necessary for producing suns - the currency of the game. It costs 50 suns. Each sun produced from sunflower adds 25 units to your sun counter.
+- **Walnut** - Walnut is the defensive plant that acts as a shield for the player's plants. It takes a long time for zombies to eat it, providing an effective cover for the plants located behind it. It is mainly used to stall zombies to waste their time, letting other plants attack them.
 
 In this mini-version we implemented only 2 zombies:
 
-- Regular Zombie - Normal zombies and their time-themed variants in Plants vs. Zombies 2 are the most basic "zombie" units. In fact, it takes four shots for a pea plant to kill them. Having no special defensive equipment or travel abilities, these zombies are susceptible to any type of attack.
-- Bucket Zombie - It's a tough zombie and it takes the PeaShooter more shots than regular zombie to kill it.
+- **Regular Zombie** - Regular zombies and their time-themed variants in Plants vs. Zombies 2 are the most basic "zombie" units. In fact, it takes four shots for a pea plant to kill them. Having no special defensive equipment or travel abilities, these zombies are susceptible to any type of attack.
+- **Bucket Zombie** - It's a tough zombie and it takes the PeaShooter more shots than regular zombie to kill it.
 
 
 ## What I learnt
-- 
+- Learnt the implememntation and use of **Javafx** 
+- Developed a user interface within the java file using Label, Group, StackPane, & Button.
+- Implemented functinality to the UI implementing the EventHandler: MouseEvent.
+- Integrated Application to develop a welcome and endgame screen.
+
