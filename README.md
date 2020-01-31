@@ -19,7 +19,7 @@ In this mini-version we implemented only 2 zombies:
 
 
 ## What I learnt
-- Learnt the implememntation and use of **Javafx** 
+- Learnt the implementation and use of **Javafx** 
 - Developed a user interface within the java file using Label, Group, StackPane, & Button.
 - Implemented functinality to the UI implementing the EventHandler: MouseEvent.
 - Integrated Application to develop a welcome and endgame screen.
